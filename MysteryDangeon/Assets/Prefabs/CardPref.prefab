@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8568771403063640882}
   - component: {fileID: 6778868152027446454}
   - component: {fileID: 3576942165597824807}
+  - component: {fileID: 5934834446919320220}
+  - component: {fileID: 5875821898959461903}
   m_Layer: 5
   m_Name: CardPref
   m_TagString: Untagged
@@ -75,6 +77,31 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5934834446919320220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5692847806948762588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb730bd699280064eaa50d332dab66c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultBatya: {fileID: 0}
+--- !u!225 &5875821898959461903
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5692847806948762588}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &8824938557330050299
 GameObject:
   m_ObjectHideFlags: 0
