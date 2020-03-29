@@ -7,13 +7,13 @@ public class DropPlaceScripts : MonoBehaviour, IDropHandler
 {
     public void OnDrop(PointerEventData eventData)
     {
-        CardScripts card = eventData.pointerDrag.GetComponent<CardScripts>();
+        CardMoveScripts card = eventData.pointerDrag.GetComponent<CardMoveScripts>();
 
         if (card)
         {
             card.DefaultBatya = transform;
         }
-
+            
         //throw new System.NotImplementedException();
     }
 }
