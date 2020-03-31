@@ -21,7 +21,7 @@ public class StartMenu : MonoBehaviour
         Vector3 halfScreen = new Vector3(Screen.width / 2, Screen.height / 2, 0);
         for (int i = 0; i < menuPositions.Length; i++)
         {
-            menuPositions[i] = menuContainer.GetChild(i).position - halfScreen;
+            menuPositions[i] = menuContainer.GetChild(i).localPosition;
         }
     }
 
