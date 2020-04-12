@@ -17,7 +17,7 @@ public struct Card
 
 }
 
-public static class CardManager {
+public static class CardManager { 
     public static List<Card> AllCards = new List<Card>();
 
 }

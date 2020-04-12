@@ -18,6 +18,10 @@ public class CardInfoScripts : MonoBehaviour
         Name.text = card.Name;
     }
 
+    private void Start()
+    {
+        ShowCardInfo(CardManager.AllCards[transform.GetSiblingIndex()]); 
+    }
 
 
 
